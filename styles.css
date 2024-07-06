@@ -1,0 +1,212 @@
+/* style.css */
+body {
+    background-color: #82def1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+#mainHeader {
+    background-color: #0C2D48;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#box-header {
+    background-color: #c6e8ff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.big-box, .big-box1, .big-box2 {
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    background-color: #189AB4;
+    padding: 20px;
+    border: 2px solid #189AB4;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+}
+
+.big-box {
+    margin-top:5%;
+    height: 27vh;
+    width: 25vw;
+}
+
+.big-box1 {
+    height: 63vh;
+    width: 25vw;
+}
+
+.big-box2 {
+    height: 55vh;
+    width: 25vw;
+}
+
+#chart {
+    height: 30vh;
+    width: 23vw;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="number"] {
+    width: 40%;
+    padding: 15px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(0, 0, 0);
+}
+
+button[type="submit"] {
+    height: 5vh;
+    width: 30%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0C2D48;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0067a2;
+    color: #ffffff;
+}
+
+#footer {
+    margin-top: 3vh;
+    background-color: #0C2D48;
+    padding: 32.5px;
+    text-align: center;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1024px) {
+    #maincontainer{
+        padding: 20px;
+        margin-top: 0px;
+        gap: 10px;
+    }
+    #mainHeader {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    #box-header {
+        padding: 15px;
+    }
+
+    .big-box, .big-box1, .big-box2 {
+        width: 45%;
+        margin: 10px 2.5%;
+    }
+
+    #chart {
+        width: 40%;
+    }
+
+    input[type="number"] {
+        width: 60%;
+    }
+
+    button[type="submit"] {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #maincontainer{
+        padding: 20px;
+        margin-top: 0px;
+        gap: 10px;
+    }
+    #mainHeader {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    #box-header {
+        padding: 10px;
+    }
+
+    .big-box, .big-box1, .big-box2 {
+        font-size: 12px;
+        width: 60%;
+        height: 30%;
+        margin-top: 20px;
+        
+    }
+
+    #chart {
+        width: 80%;
+    }
+
+    input[type="number"] {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    button[type="submit"] {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #maincontainer{
+        padding: 20px;
+        margin-top: 0px;
+        gap: 10px;
+    }
+    #mainHeader {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    #box-header {
+        padding: 5px;
+    }
+
+    .big-box, .big-box1, .big-box2 {
+        width: 95%;
+        margin: 5px 0;
+    }
+
+    #chart {
+        width: 95%;
+    }
+
+    input[type="number"] {
+        width: 90%;
+    }
+
+    button[type="submit"] {
+        width: 90%;
+    }
+}

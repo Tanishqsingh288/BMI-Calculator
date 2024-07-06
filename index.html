@@ -1,0 +1,89 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BMI Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header id="mainHeader">
+            <h1>Calculating your BMI?, Now it's just a matter of few seconds !</h1>
+        </header>
+        <main>
+            <div id="maincontainer">
+                <div class="big-box1 left-box">
+                    <header id="box-header">
+                        <h2>What is Body Mass Index?</h2><p id="leftboxcontent"
+                            align="left">
+                            Body Mass Index (BMI) is a numerical value derived
+                            from an individual's weight and height, used to
+                            assess whether a person is underweight, normal
+                            weight, overweight, or obese. It is calculated by
+                            dividing a person's weight in kilograms by the
+                            square of their height in meters (kg/m²).
+
+                            BMI provides a simple, general measure of body
+                            fatness for most people and helps identify potential
+                            health risks related to weight. <b>The World Health
+                            Organization (WHO) categorizes BMI ranges as
+                            follows: underweight (BMI < 18.5), normal weight
+                            (BMI 18.5-24.9), overweight (BMI 25-29.9), and
+                            obesity (BMI ≥ 30).</b>
+
+                            However, BMI has limitations.BMI, while a useful
+                            general tool, has significant limitations. For
+                            instance, it cannot distinguish between lean body
+                            mass (muscle and bone) and fat mass. Consequently,
+                            very muscular individuals might be categorized as
+                            overweight or obese, even if they have low body fat.
+                            Conversely, someone with low muscle mass might fall
+                            into the normal weight range despite having excess
+                            body fat.BMI does not account for fat distribution,
+                            which is crucial since abdominal fat poses a higher
+                            health risk than fat stored in other areas.
+                        </p>
+                    </header>
+                    <!-- Add content for left box here -->
+                </div>
+                <div class="big-box middle-box">
+                    <header id="box-header">
+                        <h2 id="result">Enter your Details here</h2>
+                    </header>
+                    <form>
+                        <div class="input-container">
+                            <input type="number" id="num1" name="num1"
+                                step="0.01"
+                                placeholder="Enter Your Weight (Kg's)">
+                            <input type="number" id="num2" name="num2"
+                                step="0.01"
+                                placeholder="Enter Your Height (Cm's)">
+                        </div>
+                        <button id="Submitbutton" type="submit">Check BMI</button>
+                    </form>
+                </div>
+                <div class="big-box2 right-box">
+                    <header id="box-header">
+                        <h2>Calculation of BMI</h2><p id="rightboxcontent"
+                            align="left">
+                            Body Mass Index (BMI) is calculated using a person's
+                            weight and height. <b>Weight in Kilograms is divided by
+                            the Square of Height in meters the value we get is
+                            called as BMI.</b>
+                        </p><img src=".\bmi.png" alt id="chart">
+                    </header>
+                    <!-- Add content for right box here -->
+                </div>
+            </div>
+        </main>
+        <footer id="footer">© Copyright
+            https://github.com/Tanishqsingh288?tab=repositories</footer>
+        <script src="Source.js"></script>
+    </body>
+</html>
